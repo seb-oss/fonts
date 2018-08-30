@@ -9,7 +9,7 @@
     "minify-css": "cleancss -o css/seb-fonts.min.css css/seb-fonts.css --source-map",
     "build": "npm run clean && npm run build-css && npm run autoprefix-css && npm run minify-css",
     "clean": "rimraf css",
-    "commit": "git-cz",
+    "commit": "rimraf css && git-cz",
     "travis-deploy-once": "travis-deploy-once --pro",
     "semantic-release": "semantic-release && npm run build"
   },
