@@ -9,6 +9,14 @@ This repository contains SEBs primary font SEB Sans Serif.
 ## Demo
 A demo is available [here](https://sebgroup.github.io/fonts/) (please note that this package only contains the font and font weights, not the css for font sizes).
 
+## Getting started
+Install with npm:
+```
+npm install @sebgroup/fonts --save
+```
+
+Add `seb-fonts.scss` or `seb-fonts.css` to your project.
+
 ## Contributing
 This project is semantically released using Travis CI. To update the font and release a new version do the following:
 
