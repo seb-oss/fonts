@@ -11,7 +11,8 @@
     "clean": "rimraf css",
     "commit": "rimraf css && git-cz",
     "travis-deploy-once": "travis-deploy-once --pro",
-    "semantic-release": "semantic-release && npm run build"
+    "semantic-release": "semantic-release && npm run build",
+    "package-lock-sanitizer": "package-lock-sanitizer && git add package-lock.json"
   },
   "repository": {
     "type": "git",
@@ -55,6 +56,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "husky": "^1.0.0-rc.13",
     "node-sass": "^4.5.3",
+    "package-lock-sanitizer": "^1.0.1",
     "postcss-cli": "^6.0.0",
     "rimraf": "^2.5.4",
     "semantic-release": "^15.9.12",
